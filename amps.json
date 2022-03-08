@@ -1,0 +1,419 @@
+{
+  "Bogner": [
+    {
+      "name": "Bogna Vishnu 20th Clean",
+      "model": "Shiva 20th Anniversary",
+      "tags": [
+        "clean"
+      ]
+    }
+  ],
+  "Marshall": [
+    {
+      "name": "Brit 2203",
+      "model": "JCM800",
+      "tags": []
+    },
+    {
+      "name": "Brit 900 Clean",
+      "model": "JCM900 4100",
+      "tags": [
+        "clean"
+      ]
+    },
+    {
+      "name": "Brit 900 Lead",
+      "model": "JCM900 4100",
+      "tags": [
+        "lead"
+      ]
+    },
+    {
+      "name": "Brit Plexi 100 Bright",
+      "model": "Super Lead 100",
+      "tags": [
+        "bright"
+      ]
+    },
+    {
+      "name": "Brit Plexi 100 Normal",
+      "model": "Super Lead 100",
+      "tags": []
+    },
+    {
+      "name": "Brit Plexi 100 Patch",
+      "model": "Super Lead 100",
+      "tags": [
+        "patch"
+      ]
+    },
+    {
+      "name": "Brit Plexi 50 Bright",
+      "model": "Lead 50",
+      "tags": [
+        "bright"
+      ]
+    },
+    {
+      "name": "Brit Plexi 50 Normal",
+      "model": "Lead 50",
+      "tags": []
+    },
+    {
+      "name": "Brit Plexi 50 Patch",
+      "model": "Lead 50",
+      "tags": [
+        "patch"
+      ]
+    },
+    {
+      "name": "Brit TM45 Bright",
+      "model": "JTM 45",
+      "tags": [
+        "bright"
+      ]
+    },
+    {
+      "name": "Brit TM45 Normal",
+      "model": "JTM 45",
+      "tags": []
+    },
+    {
+      "name": "Brit TM45 Patch",
+      "model": "JTM 45",
+      "tags": [
+        "patch"
+      ]
+    },
+    {
+      "name": "Brit UBL Lead",
+      "model": "Silver Jubilee",
+      "tags": [
+        "lead"
+      ]
+    },
+    {
+      "name": "Brit UBL Lead Clip",
+      "model": "Silver Jubilee",
+      "tags": [
+        "lead"
+      ]
+    }
+  ],
+  "Mesa": [
+    {
+      "name": "CA 1Star Clean 100W Normal",
+      "model": "Boogie Lone Star",
+      "tags": [
+        "clean"
+      ]
+    },
+    {
+      "name": "CA 1Star Clean 100W Tweed",
+      "model": "Boogie Lone Star",
+      "tags": [
+        "clean",
+        "tweed"
+      ]
+    },
+    {
+      "name": "CA 1Star Clean 50W Normal",
+      "model": "Boogie Lone Star",
+      "tags": [
+        "clean"
+      ]
+    },
+    {
+      "name": "CA 1Star Clean 50W Tweed",
+      "model": "Boogie Lone Star",
+      "tags": [
+        "clean",
+        "tweed"
+      ]
+    },
+    {
+      "name": "CA 1Star Drive 100W Normal",
+      "model": "Boogie Lone Star",
+      "tags": []
+    },
+    {
+      "name": "CA 1Star Drive 100W Tweed",
+      "model": "Boogie Lone Star",
+      "tags": [
+        "tweed"
+      ]
+    },
+    {
+      "name": "CA 1Star Drive 50W Normal",
+      "model": "Boogie Lone Star",
+      "tags": []
+    },
+    {
+      "name": "CA 1Star Drive 50W Tweed",
+      "model": "Boogie Lone Star",
+      "tags": [
+        "tweed"
+      ]
+    },
+    {
+      "name": "CA Duo Ch3 Modern",
+      "model": "Boogie Dual Rectifier",
+      "tags": []
+    },
+    {
+      "name": "CA Duo Ch3 Raw",
+      "model": "Boogie Dual Rectifier",
+      "tags": []
+    },
+    {
+      "name": "CA Duo Ch3 Vintage",
+      "model": "Boogie Dual Rectifier",
+      "tags": []
+    },
+    {
+      "name": "CA Tremo Orange",
+      "model": "Boogie Trem-O-Verb",
+      "tags": []
+    },
+    {
+      "name": "CA Tremo Red",
+      "model": "Boogie Trem-O-Verb",
+      "tags": []
+    }
+  ],
+  "Morgan": [
+    {
+      "name": "Captain 50",
+      "model": "SW50",
+      "tags": []
+    }
+  ],
+  "Diezel": [
+    {
+      "name": "D-Cell H4 Ch1 Bright",
+      "model": "VH4",
+      "tags": [
+        "bright"
+      ]
+    },
+    {
+      "name": "D-Cell H4 Ch1 Normal",
+      "model": "VH4",
+      "tags": []
+    },
+    {
+      "name": "D-Cell H4 Ch2 Bright",
+      "model": "VH4",
+      "tags": [
+        "bright"
+      ]
+    },
+    {
+      "name": "D-Cell H4 Ch2 Normal",
+      "model": "VH4",
+      "tags": []
+    },
+    {
+      "name": "D-Cell H4 Ch3",
+      "model": "VH4",
+      "tags": []
+    },
+    {
+      "name": "D-Cell H4 Ch4",
+      "model": "VH4",
+      "tags": []
+    }
+  ],
+  "EVH": [
+    {
+      "name": "EV101III Blue",
+      "model": "5150 III 100S EL34",
+      "tags": []
+    },
+    {
+      "name": "EV101IIIS Blue 6L6 100W",
+      "model": "5150 6L6 Tubes",
+      "tags": []
+    },
+    {
+      "name": "EV101III Red",
+      "model": "5150 III 100S EL34",
+      "tags": []
+    },
+    {
+      "name": "EV101IIIS Red 6L6 100W",
+      "model": "5150 6L6 Tubes",
+      "tags": []
+    }
+  ],
+  "Friedman": [
+    {
+      "name": "Freeman 100 Clean",
+      "model": "HBE100",
+      "tags": [
+        "clean"
+      ]
+    },
+    {
+      "name": "Freeman 100 Lead",
+      "model": "HBE100",
+      "tags": [
+        "lead"
+      ]
+    },
+    {
+      "name": "Freeman 100 Rhythm",
+      "model": "HBE100",
+      "tags": [
+        "rhythm"
+      ]
+    }
+  ],
+  "Peavey": [
+    {
+      "name": "PV-505 Lead",
+      "model": "6505",
+      "tags": [
+        "lead"
+      ]
+    },
+    {
+      "name": "PV-505 Rhythm",
+      "model": "6505",
+      "tags": [
+        "rhythm"
+      ]
+    }
+  ],
+  "Roland": [
+    {
+      "name": "Rols Jazz CH120",
+      "model": "Jazz Chorus 120",
+      "tags": []
+    }
+  ],
+  "Soldano": [
+    {
+      "name": "Solo 100 Crunch Bright",
+      "model": "SLO 100",
+      "tags": [
+        "bright"
+      ]
+    },
+    {
+      "name": "Solo 100 Crunch Normal",
+      "model": "SLO 100",
+      "tags": []
+    },
+    {
+      "name": "Solo 100 Lead",
+      "model": "SLO 100",
+      "tags": [
+        "lead"
+      ]
+    }
+  ],
+  "Vox": [
+    {
+      "name": "UK C15 Boost",
+      "model": "AC15",
+      "tags": []
+    },
+    {
+      "name": "UK C15 Normal",
+      "model": "AC15",
+      "tags": []
+    },
+    {
+      "name": "UK C30 Normal",
+      "model": "AC30",
+      "tags": []
+    },
+    {
+      "name": "UK C30 TopBoost",
+      "model": "AC30",
+      "tags": []
+    }
+  ],
+  "Fender": [
+    {
+      "name": "US DLX Normal",
+      "model": "Blackface Deluxe Reverb",
+      "tags": []
+    },
+    {
+      "name": "US DLX Vibrato",
+      "model": "Blackface Deluxe Reverb",
+      "tags": []
+    },
+    {
+      "name": "US SPR Normal",
+      "model": "Super Reverb ‘65",
+      "tags": []
+    },
+    {
+      "name": "US SPR Vibrato",
+      "model": "Super Reverb ‘65",
+      "tags": []
+    },
+    {
+      "name": "US Prince",
+      "model": "Blackface Princeton Reverb",
+      "tags": []
+    },
+    {
+      "name": "US TWN Normal",
+      "model": "Twin Reverb",
+      "tags": []
+    },
+    {
+      "name": "US TWN Vibrato",
+      "model": "Twin Reverb",
+      "tags": []
+    },
+    {
+      "name": "US Tweed Basslad Bright",
+      "model": "Bassman Tweed",
+      "tags": [
+        "bright",
+        "tweed"
+      ]
+    },
+    {
+      "name": "US Tweed Basslad Bright Jumped",
+      "model": "Bassman Tweed",
+      "tags": [
+        "bright",
+        "tweed"
+      ]
+    },
+    {
+      "name": "US Tweed Basslad Normal",
+      "model": "Bassman Tweed",
+      "tags": [
+        "tweed"
+      ]
+    },
+    {
+      "name": "US Tweed Basslad Normal Jumped",
+      "model": "Bassman Tweed",
+      "tags": [
+        "tweed"
+      ]
+    }
+  ],
+  "Hiwatt": [
+    {
+      "name": "Watt D103 Bright",
+      "model": "DR103",
+      "tags": [
+        "bright"
+      ]
+    },
+    {
+      "name": "Watt D103 Normal",
+      "model": "DR103",
+      "tags": []
+    }
+  ]
+}

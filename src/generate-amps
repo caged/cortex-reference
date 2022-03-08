@@ -1,0 +1,89 @@
+#!/usr/bin/env node
+
+const data = `• Bogna Vishnu 20th Clean (Bogner® Shiva® 20th Anniversary)
+• Brit 2203 (Marshall® JCM800®)
+• Brit 900 Clean (Marshall® JCM900® 4100)
+• Brit 900 Lead (Marshall® JCM900® 4100)
+• Brit Plexi 100 Bright (Marshall® Super Lead 100®)
+• Brit Plexi 100 Normal (Marshall® Super Lead 100®)
+• Brit Plexi 100 Patch (Marshall® Super Lead 100®)
+• Brit Plexi 50 Bright (Marshall® Lead 50®)
+• Brit Plexi 50 Normal (Marshall® Lead 50®)
+• Brit Plexi 50 Patch (Marshall® Lead 50®)
+• Brit TM45 Bright (Marshall® JTM 45®)
+• Brit TM45 Normal (Marshall® JTM 45®)
+• Brit TM45 Patch (Marshall® JTM 45®)
+• Brit UBL Lead (Marshall® Silver Jubilee®)
+• Brit UBL Lead Clip (Marshall® Silver Jubilee®)
+• CA 1Star Clean 100W Normal (Mesa® Boogie® Lone Star®)
+• CA 1Star Clean 100W Tweed (Mesa® Boogie® Lone Star®)
+• CA 1Star Clean 50W Normal (Mesa® Boogie® Lone Star®)
+• CA 1Star Clean 50W Tweed (Mesa® Boogie® Lone Star®)
+• CA 1Star Drive 100W Normal (Mesa® Boogie® Lone Star®)
+• CA 1Star Drive 100W Tweed (Mesa® Boogie® Lone Star®)
+• CA 1Star Drive 50W Normal (Mesa® Boogie® Lone Star®)
+• CA 1Star Drive 50W Tweed (Mesa® Boogie® Lone Star®)
+• Captain 50 (Morgan® SW50®)
+• CA Duo Ch3 Modern (Mesa® Boogie® Dual Rectifier®)
+• CA Duo Ch3 Raw (Mesa® Boogie® Dual Rectifier®)
+• CA Duo Ch3 Vintage (Mesa® Boogie® Dual Rectifier®)
+• CA Tremo Orange (Mesa® Boogie® Trem-O-Verb®)
+• CA Tremo Red (Mesa® Boogie® Trem-O-Verb®)
+• D-Cell H4 Ch1 Bright (Diezel® VH4®)
+• D-Cell H4 Ch1 Normal (Diezel® VH4®)
+• D-Cell H4 Ch2 Bright (Diezel® VH4®)
+• D-Cell H4 Ch2 Normal (Diezel® VH4®)
+• D-Cell H4 Ch3 (Diezel® VH4®)
+• D-Cell H4 Ch4 (Diezel® VH4®)
+• EV101III Blue (EVH® 5150 III® 100S® EL34)
+• EV101IIIS Blue 6L6 100W (EVH® 5150® 6L6 Tubes)
+• EV101III Red (EVH® 5150 III® 100S® EL34)
+• EV101IIIS Red 6L6 100W (EVH® 5150® 6L6 Tubes)
+• Freeman 100 Clean (Friedman® HBE100®)
+• Freeman 100 Lead (Friedman® HBE100®)
+• Freeman 100 Rhythm (Friedman® HBE100®)
+• PV-505 Lead (Peavey® 6505®)
+• PV-505 Rhythm (Peavey® 6505®)
+• Rols Jazz CH120 (Roland® Jazz Chorus 120®)
+• Solo 100 Crunch Bright (Soldano® SLO® 100®)
+• Solo 100 Crunch Normal (Soldano® SLO® 100®)
+• Solo 100 Lead (Soldano® SLO® 100®)
+• UK C15 Boost (Vox® AC15®)
+• UK C15 Normal (Vox® AC15®)
+• UK C30 Normal (Vox® AC30®)
+• UK C30 TopBoost (Vox® AC30®)
+• US DLX Normal (Fender® Blackface Deluxe Reverb®)
+• US DLX Vibrato (Fender® Blackface Deluxe Reverb®)
+• US SPR Normal (Fender® Super Reverb® ‘65)
+• US SPR Vibrato (Fender® Super Reverb® ‘65)
+• US Prince (Fender® Blackface Princeton Reverb®)
+• US TWN Normal (Fender® Twin Reverb®)
+• US TWN Vibrato (Fender® Twin Reverb®)
+• US Tweed Basslad Bright (Fender® Bassman® Tweed)
+• US Tweed Basslad Bright Jumped (Fender® Bassman® Tweed)
+• US Tweed Basslad Normal (Fender® Bassman® Tweed)
+• US Tweed Basslad Normal Jumped (Fender® Bassman® Tweed)
+• Watt D103 Bright (Hiwatt® DR103®)
+• Watt D103 Normal (Hiwatt® DR103®)`;
+
+const map = new Map();
+const tags = ["clean", "lead", "rhythm", "patch", "bright", "tweed"];
+
+data.split(/\n/).forEach((line) => {
+  line = line.replace("• ", "");
+  line = line.replaceAll("®", "");
+  const [preset, name] = line.split(/\(([^()]*)\)/g);
+  const [make, model] = name.split(/\s(.+)/);
+
+  if (!map.has(make)) {
+    map.set(make, []);
+  }
+
+  map.get(make).push({
+    name: preset.trim(),
+    model: model,
+    tags: tags.filter((tag) => preset.toLocaleLowerCase().includes(tag)),
+  });
+});
+
+console.log(JSON.stringify(Object.fromEntries(map), null, 2));
