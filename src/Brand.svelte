@@ -4,30 +4,6 @@
 
   const grouped = new Map(Array.from(presets).map((p) => [p.model, []]));
   presets.forEach((p) => grouped.get(p.model).push(p));
-
-  const colors = {
-    Clean: "text-blue-500",
-    Lead: "text-green-500",
-    Crunch: "text-orange-500",
-    Bright: "text-yellow-500",
-    Normal: "text-gray-800",
-    Patch: "text-purple-500",
-  };
-
-  function colorName(name) {
-    const found = Object.entries(colors).find(([k, v]) => name.includes(k));
-    if (found) {
-      // const el = document.createElement("div");
-      // const txt = document.createTextNode(found[0]);
-      // el.appendChild(txt);
-      // return el;
-      return name.replace(
-        found[0],
-        `<span class="${found[1]}">${found[0]}</span>`
-      );
-    }
-    return name;
-  }
 </script>
 
 <div class="p-2 break-after-all">
@@ -41,7 +17,7 @@
         <div class="space-y-2 text-xs">
           {#each modpresets as preset}
             <div class="text-gray-500">
-              {@html colorName(preset.name)}
+              {preset.name}
             </div>
           {/each}
         </div>
