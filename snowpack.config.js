@@ -8,12 +8,7 @@ module.exports = {
     /* ... */
   },
   plugins: [
-    [
-      "snowpack-plugin-ejs",
-      {
-        renderData: { nickname: "TEST" },
-      },
-    ],
+    "@snowpack/plugin-svelte",
     "@snowpack/plugin-postcss",
     /* ... */
   ],
