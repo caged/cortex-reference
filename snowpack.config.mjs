@@ -5,6 +5,8 @@ export default {
   },
   plugins: [
     /* ... */
+    "@snowpack/plugin-postcss",
+    "@snowpack/plugin-svelte",
   ],
   routes: [
     /* Enable an SPA Fallback in development: */

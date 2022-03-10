@@ -1,4 +1,9 @@
-/* Add CSS styles here! */
-body {
-  font-family: sans-serif;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .col-gap-2 {
+    column-gap: theme("spacing.2");
+  }
 }
