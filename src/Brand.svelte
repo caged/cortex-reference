@@ -6,7 +6,7 @@
   presets.forEach((p) => grouped.get(p.model).push(p));
 </script>
 
-<div class="p-2 break-after-all">
+<div class="pb-2 pr-2 break-after-all">
   <h3 class="font-bold text-gray-900 mb-4 text-lg border-b-2 border-gray-700">
     {name}
   </h3>
