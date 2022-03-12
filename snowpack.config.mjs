@@ -1,6 +1,7 @@
 /** @type {import("snowpack").SnowpackUserConfig } */
 export default {
   mount: {
+    src: "/",
     /* ... */
   },
   plugins: [
@@ -23,6 +24,11 @@ export default {
     /* ... */
   },
   buildOptions: {
+    optimize: {
+      bundle: true,
+      minify: true,
+      treeshake: true,
+    },
     /* ... */
   },
 };

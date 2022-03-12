@@ -1,9 +1,0 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-@layer utilities {
-  .col-gap-2 {
-    column-gap: theme("spacing.2");
-  }
-}
